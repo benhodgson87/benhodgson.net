@@ -62,34 +62,34 @@
 
 	.social-button--twitter .social-button__inner {
 		background-color: #1da1f2;
-		background-image: url('img/social/twitter.svg');
+		background-image: url('/img/social/twitter.svg');
 	}
 	.social-button--linkedin .social-button__inner {
 		background-color: #0077b5;
-		background-image: url('img/social/linkedin.svg');
+		background-image: url('/img/social/linkedin.svg');
 	}
 	.social-button--instagram .social-button__inner {
 		background-color: #405de6;
-		background-image: url('img/social/instagram.svg');
+		background-image: url('/img/social/instagram.svg');
 	}
 	.social-button--spotify .social-button__inner {
 		background-color: #1db954;
-		background-image: url('img/social/spotify.svg');
+		background-image: url('/img/social/spotify.svg');
 	}
 	.social-button--soundcloud .social-button__inner {
 		background-color: #f30;
-		background-image: url('img/social/soundcloud.svg');
+		background-image: url('/img/social/soundcloud.svg');
 	}
 	.social-button--songkick .social-button__inner {
 		background-color: #f80046;
-		background-image: url('img/social/songkick.svg');
+		background-image: url('/img/social/songkick.svg');
 	}
 	.social-button--github .social-button__inner {
 		background-color: #4078c0;
-		background-image: url('img/social/github.svg');
+		background-image: url('/img/social/github.svg');
 	}
 	.social-button--codepen .social-button__inner {
 		background-color: #1e1e1e;
-		background-image: url('img/social/codepen.svg');
+		background-image: url('/img/social/codepen.svg');
 	}
 </style>
