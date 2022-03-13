@@ -11,17 +11,13 @@
 </script>
 
 <script lang="ts">
-  import Layout from '../components/Layout.svelte';
-
   export let status: string;
   export let message: string;
 </script>
 
-<Layout noLogoOnTheFoam>
-  <h2>Error: {status}</h2>
-  <p>{message}</p>
-  <p><a href="/">Go to homepage &raquo;</a></p>
-</Layout>
+<h2>Error: {status}</h2>
+<p>{message}</p>
+<p><a href="/">Go to homepage &raquo;</a></p>
 
 <style>
   h2 {
