@@ -2,7 +2,6 @@
   import AboutMe from '../components/AboutMe.svelte';
   import Alert from '../components/Alert.svelte';
   import Header from '../components/Header.svelte';
-  import Layout from '../components/Layout.svelte';
   import SocialButtons from '../components/SocialButtons.svelte';
 </script>
 
