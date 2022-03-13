@@ -1,5 +1,7 @@
 <header>
-  <h1><a class="section-header section-header--logo" href="http://benhodgson.net">Ben Hodgson</a></h1>
+  <h1>
+    <a class="section-header section-header--logo" href="http://benhodgson.net">Ben Hodgson</a>
+  </h1>
 </header>
 
 <style>

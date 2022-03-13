@@ -7,7 +7,6 @@
 </script>
 
 <Layout>
-  <Header />
   <AboutMe />
   <SocialButtons />
   <Alert>

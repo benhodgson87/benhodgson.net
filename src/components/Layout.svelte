@@ -1,6 +1,11 @@
+<script>
+  import Header from './Header.svelte';
+</script>
+
 <div class="flex">
   <div class="flex__positioner">
     <div class="flex__content">
+      <Header />
       <slot />
     </div>
   </div>
