@@ -1,7 +1,12 @@
-<script>
+<script lang="ts">
+  import type { ServiceTypes } from './SocialButton.svelte';
   import SocialButton from './SocialButton.svelte';
 
-  let networks = [
+  let networks: Array<{
+    id: ServiceTypes;
+    name: string;
+    url: string;
+  }> = [
     { id: 'github', name: 'Github', url: 'https://github.com/benhodgson87' },
     { id: 'codepen', name: 'Codepen', url: 'https://codepen.io/bh' },
     { id: 'linkedin', name: 'LinkedIn', url: 'https://uk.linkedin.com/in/bhodgson' },

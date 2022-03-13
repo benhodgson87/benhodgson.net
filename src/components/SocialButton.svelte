@@ -1,6 +1,18 @@
-<script>
-  export let service;
-  export let href;
+<script context="module" lang="ts">
+  export type ServiceTypes =
+    | 'github'
+    | 'codepen'
+    | 'linkedin'
+    | 'twitter'
+    | 'instagram'
+    | 'songkick'
+    | 'spotify'
+    | 'soundcloud';
+</script>
+
+<script lang="ts">
+  export let service: ServiceTypes;
+  export let href: string;
 </script>
 
 <li class="social-button social-button--{service}">
