@@ -1,7 +1,7 @@
 <script lang="ts">
   import Header from './Header.svelte';
 
-  export let noLogoOnTheFoam: boolean = false;
+  export let noLogoOnTheFoam = false;
 </script>
 
 <div class="flex">
