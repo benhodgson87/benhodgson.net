@@ -1,17 +1,23 @@
 <script>
   import SocialButton from './SocialButton.svelte';
+
+  let networks = [
+    { id: 'github', name: 'Github', url: 'https://github.com/benhodgson87' },
+    { id: 'codepen', name: 'Codepen', url: 'https://codepen.io/bh' },
+    { id: 'linkedin', name: 'LinkedIn', url: 'https://uk.linkedin.com/in/bhodgson' },
+    { id: 'twitter', name: 'Twitter', url: 'https://twitter.com/benhodgson' },
+    { id: 'instagram', name: 'Instagram', url: 'https://instagram.com/ben_hodgson' },
+    { id: 'songkick', name: 'Songkick', url: 'https://www.songkick.com/users/benhodgson' },
+    { id: 'spotify', name: 'Spotify', url: 'https://open.spotify.com/user/ben.hodgson' },
+    { id: 'soundcloud', name: 'Soundcloud', url: 'https://soundcloud.com/benhodgson/likes' }
+  ];
 </script>
 
 <section>
   <ul class="social-buttons">
-    <SocialButton service="github" href="https://github.com/benhodgson87">Github</SocialButton>
-    <SocialButton service="codepen" href="https://codepen.io/bh">Codepen</SocialButton>
-    <SocialButton service="linkedin" href="https://uk.linkedin.com/in/bhodgson">LinkedIn</SocialButton>
-    <SocialButton service="twitter" href="https://twitter.com/benhodgson">Twitter</SocialButton>
-    <SocialButton service="instagram" href="https://instagram.com/ben_hodgson">Instagram</SocialButton>
-    <SocialButton service="songkick" href="https://www.songkick.com/users/benhodgson">Songkick</SocialButton>
-    <SocialButton service="spotify" href="https://open.spotify.com/user/ben.hodgson">Spotify</SocialButton>
-    <SocialButton service="soundcloud" href="https://soundcloud.com/benhodgson/likes">Soundcloud</SocialButton>
+    {#each networks as network}
+      <SocialButton service={network.id} href={network.url}>{network.name}</SocialButton>
+    {/each}
   </ul>
 </section>
 
