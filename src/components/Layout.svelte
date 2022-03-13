@@ -1,11 +1,13 @@
 <script lang="ts">
   import Header from './Header.svelte';
+
+  export let noLogoOnTheFoam: boolean = false;
 </script>
 
 <div class="flex">
   <div class="flex__positioner">
     <div class="flex__content">
-      <Header />
+      {#if !noLogoOnTheFoam} <Header />{/if}
       <slot />
     </div>
   </div>

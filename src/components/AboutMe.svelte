@@ -31,12 +31,11 @@
     color: #00d0ff;
   }
   .about p {
-    margin-bottom: 20px;
     font-size: 16px;
     line-height: 28px;
   }
-  .about p:last-of-type {
-    margin-bottom: 0;
+  .about p:not(:last-of-type) {
+    margin-bottom: 20px;
   }
   @media (min-width: 720px) {
     .about p {
