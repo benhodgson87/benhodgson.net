@@ -11,7 +11,7 @@ const config = {
     adapter: adapter(),
     browser: {
       hydrate: false,
-      router: false
+      router: process.env.NODE_ENV === 'production' ? false : true
     },
     prerender: {
       enabled: true,
