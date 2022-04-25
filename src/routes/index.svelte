@@ -1,3 +1,7 @@
+<script context="module" lang="ts">
+  export const router = process.env.NODE_ENV === 'production' ? false : true;
+</script>
+
 <script lang="ts">
   import AboutMe from '../components/AboutMe.svelte';
   import Alert from '../components/Alert.svelte';
