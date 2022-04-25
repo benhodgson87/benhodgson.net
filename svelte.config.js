@@ -8,14 +8,16 @@ const config = {
   preprocess: preprocess(),
 
   kit: {
-    adapter: adapter(),
+    adapter: adapter({
+      fallback: '404.html'
+    }),
     browser: {
       hydrate: false,
     },
     prerender: {
       enabled: true,
       default: true,
-      crawl: false,
+      crawl: true
     }
   }
 };
