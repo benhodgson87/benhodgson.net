@@ -1,4 +1,5 @@
 <script context="module" lang="ts">
+  export const hydrate = false;
   export const router = process.env.NODE_ENV === 'production' ? false : true;
 </script>
 
