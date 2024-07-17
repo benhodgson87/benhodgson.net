@@ -10,11 +10,7 @@
     { id: 'github', name: 'Github', url: 'https://github.com/benhodgson87' },
     { id: 'codepen', name: 'Codepen', url: 'https://codepen.io/bh' },
     { id: 'linkedin', name: 'LinkedIn', url: 'https://uk.linkedin.com/in/bhodgson' },
-    { id: 'twitter', name: 'Twitter', url: 'https://twitter.com/benhodgson' },
-    { id: 'instagram', name: 'Instagram', url: 'https://instagram.com/ben_hodgson' },
-    { id: 'songkick', name: 'Songkick', url: 'https://www.songkick.com/users/benhodgson' },
-    { id: 'spotify', name: 'Spotify', url: 'https://open.spotify.com/user/ben.hodgson' },
-    { id: 'soundcloud', name: 'Soundcloud', url: 'https://soundcloud.com/benhodgson/likes' }
+    { id: 'twitter', name: 'Twitter', url: 'https://twitter.com/benhodgson' }
   ];
 </script>
 
