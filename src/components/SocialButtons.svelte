@@ -10,7 +10,7 @@
     { id: 'github', name: 'Github', url: 'https://github.com/benhodgson87' },
     { id: 'codepen', name: 'Codepen', url: 'https://codepen.io/bh' },
     { id: 'linkedin', name: 'LinkedIn', url: 'https://uk.linkedin.com/in/bhodgson' },
-    { id: 'twitter', name: 'Twitter', url: 'https://twitter.com/benhodgson' }
+    { id: 'bluesky', name: 'Bluesky', url: 'https://bsky.app/profile/benhodgson.net' }
   ];
 </script>
 

@@ -104,4 +104,8 @@
     background-color: #1e1e1e;
     background-image: url('/img/social/codepen.svg');
   }
+  .social-button--bluesky .social-button__inner {
+    background-color: #1083fe;
+    background-image: url('/img/social/bluesky.svg');
+  }
 </style>
